@@ -20,10 +20,15 @@ The key finding is the dataset-specific behavior of learning rates—demonstrati
 To get started, clone the repository using the following command:
 
 bash
+
 Copy
+
 git clone https://github.com/JagadeeshMandala/ML-PROJECT-ON-LARGE-STEP-SIZES/.git
+
 cd ML-PROJECT-ON-LARGE-STEP-SIZES
+
 **Dependencies**
+
 This project requires the following libraries to run:
 
 Python 3.x
