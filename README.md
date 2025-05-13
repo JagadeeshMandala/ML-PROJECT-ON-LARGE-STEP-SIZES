@@ -111,6 +111,7 @@ Learning Rates Tested:
 0.6
 
 Key Findings:
+
 Larger learning rates (0.2 and 0.3) improve convergence and performance for MNIST.
 
 Higher learning rates (0.48 and 0.6) cause instability and poor performance on Fashion MNIST due to exploding gradients.
@@ -118,10 +119,12 @@ Higher learning rates (0.48 and 0.6) cause instability and poor performance on F
 Gradient clipping and learning rate scheduling improved the robustness of the training.
 
 Example Results:
+
 **Learning Rate    	Test Loss	  Accuracy (MAPE)**
 0.1	               0.1414	        97.63%
 0.2	               0.1443	        97.49%
 0.384	             0.1643	        96.92%
 
-Conclusion
+**Conclusion**:
+
 This study shows the significant effect of learning rate on training stability and convergence speed in neural networks. Larger learning rates may accelerate convergence but can cause instability, especially on more complex datasets. The dataset's complexity and sensitivity to gradient updates should guide the choice of learning rate.
