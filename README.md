@@ -3,6 +3,7 @@
 This project investigates the impact of varying learning rates on training dynamics and model performance using Stochastic Gradient Descent (SGD). We compare the performance of different learning rates (0.1, 0.2, 0.384, 0.48, and 0.6) on two standard datasets: MNIST and Fashion MNIST. Our experiments show that larger learning rates can accelerate convergence but may cause instability for certain datasets. The project empirically analyzes training and test losses, accuracy trends, and gradient behaviors under different step sizes.
 
 **Team Members**
+
 Jagadeesh Mandala
 
 Anish Reddy Yellakonda
